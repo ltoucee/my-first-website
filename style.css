@@ -1,0 +1,136 @@
+button {
+    display: block;             /* Mengubah tombol menjadi blok agar berjajar vertikal */
+    margin-bottom: 10px;        /* Memberikan jarak antar tombol */
+    padding: 10px 20px;         /* Memberikan padding pada tombol */
+    font-size: 16px;            /* Ukuran font tombol */
+    cursor: pointer;           /* Menambahkan kursor pointer saat hover pada tombol */
+}
+body {
+    background-color: #d66767;  /* Mengatur warna latar belakang menjadi abu-abu muda */
+    font-family: Arial, sans-serif;  /* Menentukan font untuk teks di seluruh halaman */
+    margin: 0;                   /* Menghapus margin default */
+    padding: 30px;               /* Memberikan padding di sekitar konten */
+}
+h1 {
+    text-align: center;         /* Menyusun judul di tengah */
+    color: #000000;                /* Warna teks judul */
+    font-size: 40px;            /* Ukuran font judul */
+    margin-bottom: 20px;        /* Memberikan jarak antara judul dan tombol */
+}
+
+
+button {
+    
+    background-color: #000000;   /* Warna latar belakang tombol */
+    color: white;                /* Warna teks tombol */
+    padding: 10px 20px;          /* Memberikan padding pada tombol */
+    font-size: 26px;             /* Ukuran font tombol */
+    cursor: pointer;            /* Menambahkan kursor pointer saat hover pada tombol */
+    border: none;               /* Menghilangkan border default tombol */
+    border-radius: 5px;         /* Menambahkan sudut melengkung pada tombol */
+    margin: 10px 0;             /* Menambahkan jarak antar tombol */
+    width: 300px;               /* Menentukan lebar tombol */
+    transition: background-color 0.3s ease; /* Efek transisi saat hover */
+    
+}
+
+button:hover {
+    background-color: #5c3838;  /* Ubah warna saat tombol dihover */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     /* Menyusun elemen secara vertikal di tengah */
+    align-items: center;         /* Menyusun elemen secara horizontal di tengah */
+    height: 100vh;               /* Mengatur tinggi body agar memenuhi seluruh layar */
+    margin: 0;
+    padding: 20px;
+}
+body {
+    background: linear-gradient(to bottom, #750600, #250100);  /* Gradien dari pink muda ke pink lebih tua */
+}
+button {
+    margin-top: 30px; /* Memberikan jarak antara tombol dan elemen sebelumnya */
+}
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 200px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Menambahkan efek shadow */
+}
+
+button:hover {
+    background-color: #753432;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Efek shadow lebih kuat saat dihover */
+}
+h1 {
+    text-align: center;
+    color: #b8b8b8;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  /* Menambahkan efek shadow pada teks */
+}
+
+
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 200px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4d2121;
+    transform: scale(1.1);  /* Membuat tombol sedikit membesar saat dihover */
+}
+
+
+
+@media (max-width: 768px) {
+    button {
+        width: 150px;  /* Mengurangi lebar tombol pada layar kecil */
+        font-size: 14px;  /* Mengurangi ukuran font tombol */
+    }
+
+    h1 {
+        font-size: 28px;  /* Mengurangi ukuran font judul di layar kecil */
+    }
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+button {
+    display: flex;                /* Menyusun ikon dan teks secara fleksibel */
+    align-items: center;          /* Menyusun ikon dan teks di tengah secara vertikal */
+    background-color: #000000;    /* Warna latar belakang tombol */
+    color: white;                 /* Warna teks tombol */
+    padding: 10px 20px;           /* Padding tombol */
+    font-size: 16px;              /* Ukuran font tombol */
+    border: none;                 /* Menghilangkan border tombol */
+    border-radius: 5px;           /* Sudut tombol melengkung */
+    cursor: pointer;              /* Menambahkan efek pointer saat hover */
+}
+
+button i {
+    margin-right: 10px;           /* Memberikan jarak antara ikon dan teks */
+}
+
